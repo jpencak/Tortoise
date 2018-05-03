@@ -16,7 +16,7 @@ header {background-image: url(https://s3.amazonaws.com/codecademy-content/course
         background-position: center center;
         background-size: cover;
         height: 30rem;
-        
+
 
 }
 
@@ -67,6 +67,9 @@ header .flex {justify-content: flex-end;
 .main-banner {background-color: white;
               display: inline-block;
               line-height: 2.4rem;
+}
+
+.truncated-menu {display: none;
 }
 
 h1 {font-weight: bold;
@@ -130,4 +133,8 @@ footer {background-color: azure;
 @media only screen and (max-width: 1024px) {
 header {padding-top: 0px;
         height: 22rem;
+}
+
+@media only screen and (max-width: 200px) {
+.truncated-menu {display: none;
 }

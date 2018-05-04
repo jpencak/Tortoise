@@ -219,9 +219,9 @@ header {background-position: 20%;
 }
 
 @media only screen and (max-width: 560px) {
-.footer {justify-content: center;
+footer {justify-content: center;
 }
 
 @media only screen and (max-width: 560px) {
-.footer div {display: none;
+footer div {display: none;
 }
